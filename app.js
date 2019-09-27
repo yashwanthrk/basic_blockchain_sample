@@ -29,7 +29,7 @@ app.use('/', require('./app/routes/BlockRoute'));
 
 
 // add blocks to DB on start of app
-// UTIL.storeBlocks();
+UTIL.storeBlocks();
 
 
 // Start the server
